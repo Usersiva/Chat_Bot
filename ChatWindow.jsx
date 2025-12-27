@@ -1,5 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
+import Message from "./Message";
 
 export default function ChatWindow() {
   const [messages, setMessages] = useState([]);
