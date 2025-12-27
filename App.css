@@ -52,3 +52,33 @@
 .input-box button {
   margin-left: 10px;
 }
+.message {
+  display: flex;
+  margin: 8px 0;
+}
+
+.message.user {
+  justify-content: flex-end;
+}
+
+.message.bot {
+  justify-content: flex-start;
+}
+
+.bubble {
+  max-width: 60%;
+  padding: 10px 14px;
+  border-radius: 8px;
+  line-height: 1.4;
+}
+
+.message.user .bubble {
+  background: #007a5a;
+  color: white;
+}
+
+.message.bot .bubble {
+  background: #2c2d30;
+  color: #e1e1e1;
+}
+
